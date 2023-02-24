@@ -12,8 +12,8 @@
 
 ## Output GIF
 
-<img src="https://github.com/RomitKatrodiya/Notes_App/blob/master/screenshots/Screenrecording-20221114-200450.gif" style=" height:600px; " data-target="animated-image.originalImage">
+<img src="https://github.com/RomitKatrodiya/Notes_App/blob/master/assets\notes1.PNGf" style=" height:600px; " data-target="animated-image.originalImage">
 
 ## App UI
 
-![App UI](/screenshots/Notes-App.jpg)
+<!-- ![App UI](assets\notes1.PNG) -->

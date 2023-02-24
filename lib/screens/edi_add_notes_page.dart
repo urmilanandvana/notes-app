@@ -41,6 +41,12 @@ class _EditAddNotesPageState extends State<EditAddNotesPage> {
       backgroundColor: Colors.black,
       appBar: AppBar(
         backgroundColor: Colors.black,
+        title: Padding(
+          padding: const EdgeInsets.only(left: 100),
+          child: Text(
+            "View",
+          ),
+        ),
         actions: [
           TextButton(
             onPressed: () async {
@@ -64,7 +70,7 @@ class _EditAddNotesPageState extends State<EditAddNotesPage> {
               }
             },
             child: Text(
-              (Global.isUpdate) ? "SAVE" : "ADD",
+              (Global.isUpdate) ? "Save" : "Add",
               style: GoogleFonts.poppins(
                 color: Colors.white.withOpacity(0.9),
                 fontSize: 17,

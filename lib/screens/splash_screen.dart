@@ -26,22 +26,13 @@ class _SplashScreenState extends State<SplashScreen> {
         color: Colors.black,
         alignment: Alignment.center,
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const SizedBox(),
             Icon(
               Icons.note_alt,
               size: 150,
               color: ([...Colors.primaries]..shuffle()).first.shade100,
             ),
-            Text(
-              "Notes App",
-              style: GoogleFonts.poppins(
-                fontSize: 30,
-                fontWeight: FontWeight.w600,
-                color: ([...Colors.primaries]..shuffle()).first.shade100,
-              ),
-            )
           ],
         ),
       ),

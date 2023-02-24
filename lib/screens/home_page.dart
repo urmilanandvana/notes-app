@@ -35,13 +35,14 @@ class _HomePageState extends State<HomePage> {
         ],
       ),
       floatingActionButton: FloatingActionButton(
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.white,
         onPressed: () {
           Global.isUpdate = false;
           Navigator.of(context).pushNamed("edit_add_notes_page");
         },
         child: const Icon(
-          Icons.add,
+          Icons.note_alt_outlined,
+          color: Colors.black,
           size: 30,
         ),
       ),
@@ -84,14 +85,6 @@ class _HomePageState extends State<HomePage> {
                               style: GoogleFonts.poppins(
                                 fontSize: 22,
                                 fontWeight: FontWeight.w600,
-                              ),
-                            ),
-                            const SizedBox(height: 10),
-                            Text(
-                              "${data[i]["description"]}",
-                              style: GoogleFonts.poppins(
-                                fontSize: 15,
-                                fontWeight: FontWeight.w500,
                               ),
                             ),
                             const SizedBox(height: 10),
